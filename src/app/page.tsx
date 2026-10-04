@@ -6,7 +6,7 @@ import { products } from "@/lib/products";
 
 const features = [
   { icon: "🌳", title: "樹上自然熟", desc: "等到七、八分熟才採收，不催熟、香氣足。" },
-  { icon: "🚚", title: "產地一一一一一一直送", desc: "當天採收、當天出貨，冷藏宅配到你家。" },
+  { icon: "🚚", title: "產地直送", desc: "當天採收、當天出貨，冷藏宅配到你家。" },
   { icon: "✅", title: "壞果包退", desc: "收到有碰傷、腐壞，拍照回報就補寄或退款。" },
 ];
 
