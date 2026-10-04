@@ -6,7 +6,7 @@ import { Reveal } from "@/components/motion";
 import { formatDate, posts } from "@/lib/posts";
 
 export const metadata: Metadata = {
-  title: "芒果部落格｜夏芒果園",
+  title: "芒果部落格｜炎炎夏日芒果園",
   description: "芒果挑選、保存、品種知識，讓你更懂得享受每一顆芒果",
 };
 
