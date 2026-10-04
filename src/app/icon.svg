@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <!-- 果皮：上方紅、往下轉橘黃，像熟透的愛文 -->
+    <linearGradient id="skin" x1="0.2" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#E53935"/>
+      <stop offset="0.35" stop-color="#FB7A1E"/>
+      <stop offset="0.7" stop-color="#FFB300"/>
+      <stop offset="1" stop-color="#FFD54F"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7CD45A"/>
+      <stop offset="1" stop-color="#2E9E45"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 芒果本體：斜放的長橢圓，左下側微凹 -->
+  <path d="M12 24 C14 12 30 8 41 15 C52 22 59 37 54 50 C50 60 36 61 29 53 C24 47 24 41 18 36 C13 32 11 29 12 24 Z" fill="url(#skin)"/>
+  <!-- 亮面反光 -->
+  <ellipse cx="27" cy="22" rx="4" ry="9" fill="#fff" opacity="0.5" transform="rotate(-50 27 22)"/>
+  <!-- 果蒂 -->
+  <path d="M21 13 C21 10 22 7 24 5" stroke="#7A4A1E" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- 葉子 -->
+  <path d="M23 6 C30 0 44 0 52 4 C45 11 32 12 23 6 Z" fill="url(#leaf)"/>
+  <path d="M25 6 C33 5 42 4 49 4" stroke="#1F7A35" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.6"/>
+</svg>
