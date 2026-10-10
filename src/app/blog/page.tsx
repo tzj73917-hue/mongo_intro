@@ -23,7 +23,7 @@ export default function BlogPage() {
             更懂芒果，<span className="bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">吃得更開心</span>
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-slate-600">
-            從挑選、保存到品種知識，果園整理了關於芒果的大小事。
+            從挑選、保存到品種知識，果園整理了關於芒果的大小事6666666。
           </p>
         </Reveal>
       </section>
