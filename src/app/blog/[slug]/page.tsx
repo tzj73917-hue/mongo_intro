@@ -15,7 +15,7 @@ export async function generateMetadata(props: PageProps<"/blog/[slug]">): Promis
   const { slug } = await props.params;
   const post = getPost(slug);
   if (!post) return {};
-  return { title: `${post.title}｜夏芒果園`, description: post.excerpt };
+  return { title: `${post.title}｜夏芒果園666`, description: post.excerpt };
 }
 
 function renderBlock(block: Block, i: number) {
